@@ -6,9 +6,7 @@ function myClickEvent(){
         if(xmlHttp.readyState > 3 ){
             document.getElementById('new').innerHTML=xmlHttp.responseText;
             
-            var data = new FormData();
-            data.append('username', 'student');
-            data.append('password', 'secret');
+           //aayena hehe
             
         }
     };
